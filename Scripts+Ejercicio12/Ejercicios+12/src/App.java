@@ -1,3 +1,6 @@
+/*
+ * Ejercicios del 12 al 21 de la 1a guia de JAVA
+ */
 public class App {
     public static void main(String[] args) throws Exception {
         //ejercicio12.ejer12();
@@ -6,7 +9,9 @@ public class App {
         //ejercicio15.ejer15();
         //ejercicio16.ejer16();
 
-        ejercicio17.ejer17();
-        
+        //ejercicio17.ejer17();
+        //ejercicio19.ejer19();
+        //ejercicio20.ejer20();
+        ejercicio21.ejer21();
     }
 }
