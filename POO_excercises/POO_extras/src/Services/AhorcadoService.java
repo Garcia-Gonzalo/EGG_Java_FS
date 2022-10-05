@@ -46,15 +46,18 @@ public class AhorcadoService {
                 word.plusError();
             } 
         };
+
         if (word.getErrors()==word.getMaxErrors()){
             System.out.println("Acabaste tus intentos.. perdistes!");
             System.out.println("La palabra era: "+word.getPalabra());
             result=true;
         }
+        
         System.out.println("------------------------");
         return result;
         
     }
+
     public void menuGame(Ahorcado word) {
         boolean exit = false;
         System.out.println(word.lenGuess());
